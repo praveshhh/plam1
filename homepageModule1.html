@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laminates E-commerce</title>
+    <link rel="stylesheet" href="homepageModule1.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+<header>
+    <div class="logo">[Your Logo]</div>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Shop by Brand</li>
+            <li>Products</li>
+            <li>About Us</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="search-cart">
+        <input type="text" placeholder="Search...">
+        <div class="cart-icon">🛒</div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="carousel">[Image Slider]</div>
+    <div class="cta">
+        <button>Shop Now</button>
+        <button>Explore Brands</button>
+    </div>
+</section>
+
+<section class="featured-brands">
+    <h2>Featured Brands</h2>
+    <div class="brand-carousel">[Brand Logos]</div>
+</section>
+
+<section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-links">[Category Thumbnails]</div>
+</section>
+
+<section class="popular-products">
+    <h2>Popular Products</h2>
+    <div class="product-thumbnails">
+        <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product Name 1</h3>
+            <p>Price: ₹500</p>
+            <div class="button-group">
+                <button class="add-cart-btn">Add to Cart</button>
+                <button class="sales-btn">Talk to Sales Consultant</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Product Name 2</h3>
+            <p>Price: ₹600</p>
+            <div class="button-group">
+                <button class="add-cart-btn">Add to Cart</button>
+                <button class="sales-btn">Talk to Sales Consultant</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="product3.jpg" alt="Product 3">
+            <h3>Product Name 3</h3>
+            <p>Price: ₹700</p>
+            <div class="button-group">
+                <button class="add-cart-btn">Add to Cart</button>
+                <button class="sales-btn">Talk to Sales Consultant</button>
+            </div>
+        </div>
+        <!-- Repeat for more products -->
+    </div>
+</section>
+
+<section class="inspiration-gallery">
+    <h2>Inspiration Gallery</h2>
+    <div class="gallery-images">[User Project Images]</div>
+</section>
+
+<section class="blog-preview">
+    <h2>Latest from Our Blog</h2>
+    <div class="blog-posts">[Blog Teasers]</div>
+</section>
+
+<footer>
+    <div class="footer-links">[Links]</div>
+    <div class="social-media">[Icons]</div>
+    <div class="newsletter">
+        <input type="email" placeholder="Subscribe to our newsletter">
+        <button>Subscribe</button>
+    </div>
+</footer>
+
+<!-- Modal for Sales Consultant -->
+<div id="salesModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Contact a Sales Consultant</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<script src="homepageModule1.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
