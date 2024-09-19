@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laminates E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <div class="logo"><img src="logo.png" alt="Logo"></div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop by Brand</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="search-cart">
+        <input type="text" placeholder="Search...">
+        <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="carousel">
+        <img src="laminate-1.jpg" alt="Laminate 1">
+        <img src="laminate-2.jpg" alt="Laminate 2">
+        <img src="laminate-3.jpg" alt="Laminate 3">
+    </div>
+    <div class="cta">
+        <button class="cta-btn">Shop Now</button>
+        <button class="cta-btn secondary">Explore Brands</button>
+    </div>
+</section>
+
+<section class="featured-brands">
+    <h2>Featured Brands</h2>
+    <div class="brand-carousel">
+        <img src="brand1.png" alt="Brand 1">
+        <img src="brand2.png" alt="Brand 2">
+        <img src="brand3.png" alt="Brand 3">
+    </div>
+</section>
+
+<section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-links">
+        <div class="category-card">
+            <img src="category1.jpg" alt="Category 1">
+            <p>Wood Laminates</p>
+        </div>
+        <div class="category-card">
+            <img src="category2.jpg" alt="Category 2">
+            <p>Glossy Laminates</p>
+        </div>
+        <div class="category-card">
+            <img src="category3.jpg" alt="Category 3">
+            <p>Textured Laminates</p>
+        </div>
+    </div>
+</section>
+
+<section class="popular-products">
+    <h2>Popular Products</h2>
+    <div class="product-thumbnails">
+        <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product Name 1</h3>
+            <p>₹500</p>
+            <div class="button-group">
+                <button class="add-cart-btn">Add to Cart</button>
+                <button class="sales-btn">Talk to Sales Consultant</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Product Name 2</h3>
+            <p>₹600</p>
+            <div class="button-group">
+                <button class="add-cart-btn">Add to Cart</button>
+                <button class="sales-btn">Talk to Sales Consultant</button>
+            </div>
+        </div>
+        <!-- More products... -->
+    </div>
+</section>
+
+<section class="inspiration-gallery">
+    <h2>Inspiration Gallery</h2>
+    <div class="gallery-images">
+        <img src="gallery1.jpg" alt="Project 1">
+        <img src="gallery2.jpg" alt="Project 2">
+        <img src="gallery3.jpg" alt="Project 3">
+    </div>
+</section>
+
+<section class="blog-preview">
+    <h2>Latest from Our Blog</h2>
+    <div class="blog-posts">
+        <div class="post">
+            <img src="post1.jpg" alt="Blog Post 1">
+            <h3>Post Title 1</h3>
+            <p>Short description of the blog post.</p>
+        </div>
+        <div class="post">
+            <img src="post2.jpg" alt="Blog Post 2">
+            <h3>Post Title 2</h3>
+            <p>Short description of the blog post.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="newsletter">
+            <input type="email" placeholder="Subscribe to our newsletter">
+            <button>Subscribe</button>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal for Sales Consultant -->
+<div id="salesModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Contact a Sales Consultant</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
